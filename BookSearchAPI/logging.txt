@@ -1,0 +1,585 @@
+Request method:	POST
+Request URI:	https://api.twitter.com/1.1/statuses/update.json?status=%23Whatsthebookname%20Paulo%20Coelho
+Proxy:			<none>
+Request params:	<none>
+Query params:	status=#Whatsthebookname Paulo Coelho
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+content-disposition: attachment; filename=json.json
+content-encoding: gzip
+content-length: 809
+content-type: application/json;charset=utf-8
+date: Mon, 25 May 2020 16:02:42 GMT
+expires: Tue, 31 Mar 1981 05:00:00 GMT
+last-modified: Mon, 25 May 2020 16:02:42 GMT
+pragma: no-cache
+server: tsa_a
+set-cookie: personalization_id="v1_X4XEbi9PjMuV1yaslydsrg=="; Max-Age=63072000; Expires=Wed, 25 May 2022 16:02:42 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+set-cookie: lang=en; Path=/
+set-cookie: guest_id=v1%3A159042256231300263; Max-Age=63072000; Expires=Wed, 25 May 2022 16:02:42 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+status: 200 OK
+strict-transport-security: max-age=631138519
+x-access-level: read-write
+x-connection-hash: 6516d9cc87318a328a1dd42d6192dfb2
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-response-time: 56
+x-transaction: 002a9b5a00064626
+x-twitter-response-tags: BouncerCompliant
+x-xss-protection: 0
+
+{
+    "created_at": "Mon May 25 16:02:42 +0000 2020",
+    "id": 1264950025290780672,
+    "id_str": "1264950025290780672",
+    "text": "#Whatsthebookname Paulo Coelho",
+    "truncated": false,
+    "entities": {
+        "hashtags": [
+            {
+                "text": "Whatsthebookname",
+                "indices": [
+                    0,
+                    17
+                ]
+            }
+        ],
+        "symbols": [
+            
+        ],
+        "user_mentions": [
+            
+        ],
+        "urls": [
+            
+        ]
+    },
+    "source": "<a href=\"https://goodreeds.com\" rel=\"nofollow\">TWITTER API SEARCH FOR GOODREAD</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+        "id": 1264120276448468996,
+        "id_str": "1264120276448468996",
+        "name": "MyTestingProfile",
+        "screen_name": "MyTestingProfi1",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+            "description": {
+                "urls": [
+                    
+                ]
+            }
+        },
+        "protected": false,
+        "followers_count": 0,
+        "friends_count": 0,
+        "listed_count": 0,
+        "created_at": "Sat May 23 09:06:19 +0000 2020",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 56,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": true,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "pt"
+}
+Request method:	GET
+Request URI:	https://api.twitter.com/1.1/statuses/home_timeline.json?count=3
+Proxy:			<none>
+Request params:	<none>
+Query params:	count=3
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+content-disposition: attachment; filename=json.json
+content-encoding: gzip
+content-length: 1065
+content-type: application/json;charset=utf-8
+date: Mon, 25 May 2020 16:02:46 GMT
+expires: Tue, 31 Mar 1981 05:00:00 GMT
+last-modified: Mon, 25 May 2020 16:02:46 GMT
+pragma: no-cache
+server: tsa_a
+set-cookie: personalization_id="v1_ifzywTXd7pPozNzqD8mozg=="; Max-Age=63072000; Expires=Wed, 25 May 2022 16:02:46 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+set-cookie: lang=en; Path=/
+set-cookie: guest_id=v1%3A159042256609563459; Max-Age=63072000; Expires=Wed, 25 May 2022 16:02:46 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+status: 200 OK
+strict-transport-security: max-age=631138519
+x-access-level: read-write
+x-connection-hash: ac93362516164d7898b4c38fcbebf964
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-rate-limit-limit: 15
+x-rate-limit-remaining: 14
+x-rate-limit-reset: 1590423466
+x-response-time: 30
+x-transaction: 007b4a4300591310
+x-twitter-response-tags: BouncerCompliant
+x-xss-protection: 0
+
+[
+    {
+        "created_at": "Mon May 25 16:02:42 +0000 2020",
+        "id": 1264950025290780672,
+        "id_str": "1264950025290780672",
+        "text": "#Whatsthebookname Paulo Coelho",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "Whatsthebookname",
+                    "indices": [
+                        0,
+                        17
+                    ]
+                }
+            ],
+            "symbols": [
+                
+            ],
+            "user_mentions": [
+                
+            ],
+            "urls": [
+                
+            ]
+        },
+        "source": "<a href=\"https://goodreeds.com\" rel=\"nofollow\">TWITTER API SEARCH FOR GOODREAD</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1264120276448468996,
+            "id_str": "1264120276448468996",
+            "name": "MyTestingProfile",
+            "screen_name": "MyTestingProfi1",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": [
+                        
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 0,
+            "listed_count": 0,
+            "created_at": "Sat May 23 09:06:19 +0000 2020",
+            "favourites_count": 0,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 56,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "pt"
+    },
+    {
+        "created_at": "Mon May 25 15:33:30 +0000 2020",
+        "id": 1264942675779702785,
+        "id_str": "1264942675779702785",
+        "text": "https://t.co/UxEn3wdt2G",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                
+            ],
+            "symbols": [
+                
+            ],
+            "user_mentions": [
+                
+            ],
+            "urls": [
+                {
+                    "url": "https://t.co/UxEn3wdt2G",
+                    "expanded_url": "https://www.goodreads.com/book/title?id=Beloved",
+                    "display_url": "goodreads.com/book/title?id=…",
+                    "indices": [
+                        0,
+                        23
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"https://goodreeds.com\" rel=\"nofollow\">TWITTER API SEARCH FOR GOODREAD</a>",
+        "in_reply_to_status_id": 1264942633132027904,
+        "in_reply_to_status_id_str": "1264942633132027904",
+        "in_reply_to_user_id": 1264120276448468996,
+        "in_reply_to_user_id_str": "1264120276448468996",
+        "in_reply_to_screen_name": "MyTestingProfi1",
+        "user": {
+            "id": 1264120276448468996,
+            "id_str": "1264120276448468996",
+            "name": "MyTestingProfile",
+            "screen_name": "MyTestingProfi1",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": [
+                        
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 0,
+            "listed_count": 0,
+            "created_at": "Sat May 23 09:06:19 +0000 2020",
+            "favourites_count": 0,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 56,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "und"
+    },
+    {
+        "created_at": "Mon May 25 15:33:19 +0000 2020",
+        "id": 1264942633132027904,
+        "id_str": "1264942633132027904",
+        "text": "#Whatsthebookname Toni Morrison",
+        "truncated": false,
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "Whatsthebookname",
+                    "indices": [
+                        0,
+                        17
+                    ]
+                }
+            ],
+            "symbols": [
+                
+            ],
+            "user_mentions": [
+                
+            ],
+            "urls": [
+                
+            ]
+        },
+        "source": "<a href=\"https://goodreeds.com\" rel=\"nofollow\">TWITTER API SEARCH FOR GOODREAD</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 1264120276448468996,
+            "id_str": "1264120276448468996",
+            "name": "MyTestingProfile",
+            "screen_name": "MyTestingProfi1",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": [
+                        
+                    ]
+                }
+            },
+            "protected": false,
+            "followers_count": 0,
+            "friends_count": 0,
+            "listed_count": 0,
+            "created_at": "Sat May 23 09:06:19 +0000 2020",
+            "favourites_count": 0,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": false,
+            "verified": false,
+            "statuses_count": 56,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "F5F8FA",
+            "profile_background_image_url": null,
+            "profile_background_image_url_https": null,
+            "profile_background_tile": false,
+            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": true,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "et"
+    }
+]
+Request method:	POST
+Request URI:	https://api.twitter.com/1.1/statuses/update.json?status=https%3A%2F%2Fwww.goodreads.com%2Fbook%2Ftitle%3Fid%3DThe%2520Alchemist&in_reply_to_status_id=1264950025290780672&auto_populate_reply_metadata=true
+Proxy:			<none>
+Request params:	<none>
+Query params:	status=https://www.goodreads.com/book/title?id=The%20Alchemist
+				in_reply_to_status_id=1264950025290780672
+				auto_populate_reply_metadata=true
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+content-disposition: attachment; filename=json.json
+content-encoding: gzip
+content-length: 888
+content-type: application/json;charset=utf-8
+date: Mon, 25 May 2020 16:02:55 GMT
+expires: Tue, 31 Mar 1981 05:00:00 GMT
+last-modified: Mon, 25 May 2020 16:02:55 GMT
+pragma: no-cache
+server: tsa_a
+set-cookie: personalization_id="v1_D3WRzwZbrMa+8Gux+mnE0g=="; Max-Age=63072000; Expires=Wed, 25 May 2022 16:02:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+set-cookie: lang=en; Path=/
+set-cookie: guest_id=v1%3A159042257566203845; Max-Age=63072000; Expires=Wed, 25 May 2022 16:02:55 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+status: 200 OK
+strict-transport-security: max-age=631138519
+x-access-level: read-write
+x-connection-hash: 6d1c023e9676d6b18bc94c482a26530b
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-response-time: 81
+x-transaction: 003c19cd007be1c3
+x-twitter-response-tags: BouncerCompliant
+x-xss-protection: 0
+
+{
+    "created_at": "Mon May 25 16:02:55 +0000 2020",
+    "id": 1264950081280634880,
+    "id_str": "1264950081280634880",
+    "text": "https://t.co/fIJs35rQ97",
+    "truncated": false,
+    "entities": {
+        "hashtags": [
+            
+        ],
+        "symbols": [
+            
+        ],
+        "user_mentions": [
+            
+        ],
+        "urls": [
+            {
+                "url": "https://t.co/fIJs35rQ97",
+                "expanded_url": "https://www.goodreads.com/book/title?id=The%20Alchemist",
+                "display_url": "goodreads.com/book/title?id=…",
+                "indices": [
+                    0,
+                    23
+                ]
+            }
+        ]
+    },
+    "source": "<a href=\"https://goodreeds.com\" rel=\"nofollow\">TWITTER API SEARCH FOR GOODREAD</a>",
+    "in_reply_to_status_id": 1264950025290780672,
+    "in_reply_to_status_id_str": "1264950025290780672",
+    "in_reply_to_user_id": 1264120276448468996,
+    "in_reply_to_user_id_str": "1264120276448468996",
+    "in_reply_to_screen_name": "MyTestingProfi1",
+    "user": {
+        "id": 1264120276448468996,
+        "id_str": "1264120276448468996",
+        "name": "MyTestingProfile",
+        "screen_name": "MyTestingProfi1",
+        "location": "",
+        "description": "",
+        "url": null,
+        "entities": {
+            "description": {
+                "urls": [
+                    
+                ]
+            }
+        },
+        "protected": false,
+        "followers_count": 0,
+        "friends_count": 0,
+        "listed_count": 0,
+        "created_at": "Sat May 23 09:06:19 +0000 2020",
+        "favourites_count": 0,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 57,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": true,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "und"
+}
