@@ -1,9 +1,7 @@
 package weatherSearch;
 
 import static io.restassured.RestAssured.given;
-
 import java.io.IOException;
-
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import resources.Utils;
