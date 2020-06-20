@@ -1,8 +1,8 @@
 Request method:	POST
-Request URI:	https://api.twitter.com/1.1/statuses/update.json?status=%23Whatsthebookname%20John%20green
+Request URI:	https://api.twitter.com/1.1/statuses/update.json?status=%23WhatstheWeather%20London
 Proxy:			<none>
 Request params:	<none>
-Query params:	status=#Whatsthebookname John green
+Query params:	status=#WhatstheWeather London
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -14,40 +14,40 @@ HTTP/1.1 200 OK
 cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
 content-disposition: attachment; filename=json.json
 content-encoding: gzip
-content-length: 809
+content-length: 805
 content-type: application/json;charset=utf-8
-date: Sat, 20 Jun 2020 08:11:04 GMT
+date: Sat, 20 Jun 2020 17:35:31 GMT
 expires: Tue, 31 Mar 1981 05:00:00 GMT
-last-modified: Sat, 20 Jun 2020 08:11:04 GMT
+last-modified: Sat, 20 Jun 2020 17:35:31 GMT
 pragma: no-cache
 server: tsa_k
-set-cookie: personalization_id="v1_GTLMhmoO91HHUoSO2IztIQ=="; Max-Age=63072000; Expires=Mon, 20 Jun 2022 08:11:04 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+set-cookie: personalization_id="v1_VyCYxrPdvEwgr6emJ3OwbQ=="; Max-Age=63072000; Expires=Mon, 20 Jun 2022 17:35:31 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
 set-cookie: lang=en; Path=/
-set-cookie: guest_id=v1%3A159264066438401583; Max-Age=63072000; Expires=Mon, 20 Jun 2022 08:11:04 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+set-cookie: guest_id=v1%3A159267453151482165; Max-Age=63072000; Expires=Mon, 20 Jun 2022 17:35:31 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
 status: 200 OK
 strict-transport-security: max-age=631138519
 x-access-level: read-write
-x-connection-hash: f461204d951a5a803aa43ba518ae641f
+x-connection-hash: a609b9aa2d7f8e705fd3b55039c19e9c
 x-content-type-options: nosniff
 x-frame-options: SAMEORIGIN
-x-response-time: 227
-x-transaction: 000e113200c43631
+x-response-time: 226
+x-transaction: 0087906400e5cc67
 x-twitter-response-tags: BouncerCompliant
 x-xss-protection: 0
 
 {
-    "created_at": "Sat Jun 20 08:11:04 +0000 2020",
-    "id": 1274253419679584257,
-    "id_str": "1274253419679584257",
-    "text": "#Whatsthebookname John green",
+    "created_at": "Sat Jun 20 17:35:31 +0000 2020",
+    "id": 1274395468718436353,
+    "id_str": "1274395468718436353",
+    "text": "#WhatstheWeather London",
     "truncated": false,
     "entities": {
         "hashtags": [
             {
-                "text": "Whatsthebookname",
+                "text": "WhatstheWeather",
                 "indices": [
                     0,
-                    17
+                    16
                 ]
             }
         ],
@@ -92,7 +92,7 @@ x-xss-protection: 0
         "time_zone": null,
         "geo_enabled": false,
         "verified": false,
-        "statuses_count": 63,
+        "statuses_count": 67,
         "lang": null,
         "contributors_enabled": false,
         "is_translator": false,
@@ -126,272 +126,4 @@ x-xss-protection: 0
     "favorited": false,
     "retweeted": false,
     "lang": "en"
-}
-Request method:	GET
-Request URI:	https://api.twitter.com/1.1/statuses/home_timeline.json?count=3
-Proxy:			<none>
-Request params:	<none>
-Query params:	count=3
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json; charset=UTF-8
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
-content-disposition: attachment; filename=json.json
-content-encoding: gzip
-content-length: 811
-content-type: application/json;charset=utf-8
-date: Sat, 20 Jun 2020 08:11:06 GMT
-expires: Tue, 31 Mar 1981 05:00:00 GMT
-last-modified: Sat, 20 Jun 2020 08:11:06 GMT
-pragma: no-cache
-server: tsa_k
-set-cookie: personalization_id="v1_33yzJzFdA0jw+1E/jQ4wJA=="; Max-Age=63072000; Expires=Mon, 20 Jun 2022 08:11:06 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-set-cookie: lang=en; Path=/
-set-cookie: guest_id=v1%3A159264066662363644; Max-Age=63072000; Expires=Mon, 20 Jun 2022 08:11:06 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-status: 200 OK
-strict-transport-security: max-age=631138519
-x-access-level: read-write
-x-connection-hash: 265d2dc58204d71ac21300dce40ebf4c
-x-content-type-options: nosniff
-x-frame-options: SAMEORIGIN
-x-rate-limit-limit: 15
-x-rate-limit-remaining: 13
-x-rate-limit-reset: 1592641423
-x-response-time: 192
-x-transaction: 00af750b00f95be9
-x-twitter-response-tags: BouncerCompliant
-x-xss-protection: 0
-
-[
-    {
-        "created_at": "Sat Jun 20 08:11:04 +0000 2020",
-        "id": 1274253419679584257,
-        "id_str": "1274253419679584257",
-        "text": "#Whatsthebookname John green",
-        "truncated": false,
-        "entities": {
-            "hashtags": [
-                {
-                    "text": "Whatsthebookname",
-                    "indices": [
-                        0,
-                        17
-                    ]
-                }
-            ],
-            "symbols": [
-                
-            ],
-            "user_mentions": [
-                
-            ],
-            "urls": [
-                
-            ]
-        },
-        "source": "<a href=\"https://goodreeds.com\" rel=\"nofollow\">TWITTER API SEARCH FOR GOODREAD</a>",
-        "in_reply_to_status_id": null,
-        "in_reply_to_status_id_str": null,
-        "in_reply_to_user_id": null,
-        "in_reply_to_user_id_str": null,
-        "in_reply_to_screen_name": null,
-        "user": {
-            "id": 1264120276448468996,
-            "id_str": "1264120276448468996",
-            "name": "MyTestingProfile",
-            "screen_name": "MyTestingProfi1",
-            "location": "",
-            "description": "",
-            "url": null,
-            "entities": {
-                "description": {
-                    "urls": [
-                        
-                    ]
-                }
-            },
-            "protected": false,
-            "followers_count": 0,
-            "friends_count": 0,
-            "listed_count": 0,
-            "created_at": "Sat May 23 09:06:19 +0000 2020",
-            "favourites_count": 0,
-            "utc_offset": null,
-            "time_zone": null,
-            "geo_enabled": false,
-            "verified": false,
-            "statuses_count": 63,
-            "lang": null,
-            "contributors_enabled": false,
-            "is_translator": false,
-            "is_translation_enabled": false,
-            "profile_background_color": "F5F8FA",
-            "profile_background_image_url": null,
-            "profile_background_image_url_https": null,
-            "profile_background_tile": false,
-            "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-            "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-            "profile_link_color": "1DA1F2",
-            "profile_sidebar_border_color": "C0DEED",
-            "profile_sidebar_fill_color": "DDEEF6",
-            "profile_text_color": "333333",
-            "profile_use_background_image": true,
-            "has_extended_profile": false,
-            "default_profile": true,
-            "default_profile_image": true,
-            "following": false,
-            "follow_request_sent": false,
-            "notifications": false,
-            "translator_type": "none"
-        },
-        "geo": null,
-        "coordinates": null,
-        "place": null,
-        "contributors": null,
-        "is_quote_status": false,
-        "retweet_count": 0,
-        "favorite_count": 0,
-        "favorited": false,
-        "retweeted": false,
-        "lang": "en"
-    }
-]
-Request method:	POST
-Request URI:	https://api.twitter.com/1.1/statuses/update.json?status=https%3A%2F%2Fwww.goodreads.com%2Fbook%2Ftitle%3Fid%3DThe%2520Fault%2520in%2520Our%2520Stars&in_reply_to_status_id=1274253419679584257&auto_populate_reply_metadata=true
-Proxy:			<none>
-Request params:	<none>
-Query params:	status=https://www.goodreads.com/book/title?id=The%20Fault%20in%20Our%20Stars
-				in_reply_to_status_id=1274253419679584257
-				auto_populate_reply_metadata=true
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json; charset=UTF-8
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
-content-disposition: attachment; filename=json.json
-content-encoding: gzip
-content-length: 896
-content-type: application/json;charset=utf-8
-date: Sat, 20 Jun 2020 08:11:12 GMT
-expires: Tue, 31 Mar 1981 05:00:00 GMT
-last-modified: Sat, 20 Jun 2020 08:11:12 GMT
-pragma: no-cache
-server: tsa_k
-set-cookie: personalization_id="v1_jkftvco8n7hnaiCNyj43aw=="; Max-Age=63072000; Expires=Mon, 20 Jun 2022 08:11:12 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-set-cookie: lang=en; Path=/
-set-cookie: guest_id=v1%3A159264067276274346; Max-Age=63072000; Expires=Mon, 20 Jun 2022 08:11:12 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-status: 200 OK
-strict-transport-security: max-age=631138519
-x-access-level: read-write
-x-connection-hash: 5496ef70591ee7399fb31d6faffaaab5
-x-content-type-options: nosniff
-x-frame-options: SAMEORIGIN
-x-response-time: 251
-x-transaction: 004ea32f0051e2f0
-x-twitter-response-tags: BouncerCompliant
-x-xss-protection: 0
-
-{
-    "created_at": "Sat Jun 20 08:11:12 +0000 2020",
-    "id": 1274253454819508224,
-    "id_str": "1274253454819508224",
-    "text": "https://t.co/Ibt8SaJZ8i",
-    "truncated": false,
-    "entities": {
-        "hashtags": [
-            
-        ],
-        "symbols": [
-            
-        ],
-        "user_mentions": [
-            
-        ],
-        "urls": [
-            {
-                "url": "https://t.co/Ibt8SaJZ8i",
-                "expanded_url": "https://www.goodreads.com/book/title?id=The%20Fault%20in%20Our%20Stars",
-                "display_url": "goodreads.com/book/title?id=…",
-                "indices": [
-                    0,
-                    23
-                ]
-            }
-        ]
-    },
-    "source": "<a href=\"https://goodreeds.com\" rel=\"nofollow\">TWITTER API SEARCH FOR GOODREAD</a>",
-    "in_reply_to_status_id": 1274253419679584257,
-    "in_reply_to_status_id_str": "1274253419679584257",
-    "in_reply_to_user_id": 1264120276448468996,
-    "in_reply_to_user_id_str": "1264120276448468996",
-    "in_reply_to_screen_name": "MyTestingProfi1",
-    "user": {
-        "id": 1264120276448468996,
-        "id_str": "1264120276448468996",
-        "name": "MyTestingProfile",
-        "screen_name": "MyTestingProfi1",
-        "location": "",
-        "description": "",
-        "url": null,
-        "entities": {
-            "description": {
-                "urls": [
-                    
-                ]
-            }
-        },
-        "protected": false,
-        "followers_count": 0,
-        "friends_count": 0,
-        "listed_count": 0,
-        "created_at": "Sat May 23 09:06:19 +0000 2020",
-        "favourites_count": 0,
-        "utc_offset": null,
-        "time_zone": null,
-        "geo_enabled": false,
-        "verified": false,
-        "statuses_count": 64,
-        "lang": null,
-        "contributors_enabled": false,
-        "is_translator": false,
-        "is_translation_enabled": false,
-        "profile_background_color": "F5F8FA",
-        "profile_background_image_url": null,
-        "profile_background_image_url_https": null,
-        "profile_background_tile": false,
-        "profile_image_url": "http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-        "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
-        "profile_link_color": "1DA1F2",
-        "profile_sidebar_border_color": "C0DEED",
-        "profile_sidebar_fill_color": "DDEEF6",
-        "profile_text_color": "333333",
-        "profile_use_background_image": true,
-        "has_extended_profile": false,
-        "default_profile": true,
-        "default_profile_image": true,
-        "following": false,
-        "follow_request_sent": false,
-        "notifications": false,
-        "translator_type": "none"
-    },
-    "geo": null,
-    "coordinates": null,
-    "place": null,
-    "contributors": null,
-    "is_quote_status": false,
-    "retweet_count": 0,
-    "favorite_count": 0,
-    "favorited": false,
-    "retweeted": false,
-    "possibly_sensitive": false,
-    "lang": "und"
 }

@@ -15,7 +15,8 @@ public class SearchWeather {
 		JsonPath jspath = new JsonPath(json);
 		weather = this.weather;
 		weather = jspath.get("current.temp_c").toString();
-		System.out.println(weather);
+		String retweet = "Hey The weather at your place is " +" " + weather + " " +"Hope you are having a Nice day";
+		System.out.println(retweet);
 
 	}
 }
