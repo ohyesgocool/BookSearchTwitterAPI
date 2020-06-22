@@ -25,6 +25,7 @@ public class TwitterAPITest extends Utils {
 							Utils.getGlobalValue("Token"), Utils.getGlobalValue("TokenSecret"))
 					.queryParam("count", "3").when().get("/home_timeline.json").then().extract().response();
 			Assert.assertEquals(response.getStatusCode(), 200);
+			System.out.println(response.asString());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

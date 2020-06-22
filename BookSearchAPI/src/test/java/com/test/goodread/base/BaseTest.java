@@ -31,7 +31,6 @@ public class BaseTest {
 	public void SearchItem() throws Exception {
 		if (Utils.getGlobalValue("section").equals("weather")) {
 			SearchWeather weather = new SearchWeather();
-
 			weather.searchWeather();
 
 		} else if (Utils.getGlobalValue("section").equals("book")) {
