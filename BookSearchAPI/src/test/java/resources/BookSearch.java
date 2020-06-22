@@ -5,7 +5,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.XML;
 
-
 import goodReads.GoodReadTest;
 
 import io.restassured.path.json.JsonPath;
@@ -19,27 +18,19 @@ public class BookSearch {
 
 	public void getTweet() throws Exception {
 		Response response = TwitterAPITest.getQueryFromTwitter();
-		String json = response.asString();
-		JsonPath jspath = new JsonPath(json);
-
+		JsonPath jspath = Utils.getTweetJSON(response);
 		List<?> arr = jspath.get("array");
 		for (int i = 0; i < arr.size(); i++) {
 			tweetID = (jspath.get("[" + i + "].id").toString());
 			String tweetName = (jspath.get("[" + i + "].text").toString());
-
-			if (tweetName.contains("#Whatsthebookname ")) {
-				String tweetNameArr[] = tweetName.split("#Whatsthebookname ");
-				authorName = tweetNameArr[1];
-				
-				break;
-
-			}
+			authorName = this.authorName;
+			authorName = Utils.splitTweet(tweetName);
+			break;
 
 		}
 
 	}
 
-	
 	public static void goodRead() throws Exception {
 		// Method to get the Book Name From GoodRead API
 		if (authorName != null && !("".equals(authorName))) {

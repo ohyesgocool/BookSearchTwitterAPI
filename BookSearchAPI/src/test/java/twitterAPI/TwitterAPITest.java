@@ -24,7 +24,6 @@ public class TwitterAPITest extends Utils {
 					.oauth(Utils.getGlobalValue("ConsumerKey"), Utils.getGlobalValue("ConsumerSecret"),
 							Utils.getGlobalValue("Token"), Utils.getGlobalValue("TokenSecret"))
 					.queryParam("count", "3").when().get("/home_timeline.json").then().extract().response();
-
 			Assert.assertEquals(response.getStatusCode(), 200);
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -36,7 +35,7 @@ public class TwitterAPITest extends Utils {
 	// Post API
 
 	public static void postTweet(String tweet) throws IOException {
-		
+
 		if (Utils.getGlobalValue("isTweetFromAutomation").equals("1")) {
 			RestAssured.baseURI = Utils.getGlobalValue("baseurl");
 			Response res = given().spec(logging()).auth()
@@ -49,9 +48,7 @@ public class TwitterAPITest extends Utils {
 			JsonPath js = new JsonPath(response);
 		}
 
-		}
-
-	
+	}
 
 	// ReTweet
 

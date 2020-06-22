@@ -7,6 +7,7 @@ import io.restassured.response.Response;
 import twitterAPI.TwitterAPITest;
 
 public class SearchWeather {
+	
 	String weather;
 
 	public void searchWeather() throws IOException {

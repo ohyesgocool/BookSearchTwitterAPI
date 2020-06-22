@@ -13,7 +13,7 @@ public class WeatherSearchAPI {
 		// BaseURL or Host
 		RestAssured.baseURI = Utils.getGlobalValue("weatherapiurl");
 
-		Response response = given().queryParam("Key", Utils.getGlobalValue("weatherKey")).queryParam("q", "London")
+		Response response = given().queryParam("Key", Utils.getGlobalValue("weatherKey")).queryParam("q", "Kollengode")
 				.when().get("v1/current.json").then().extract().response();
 
 		return response;

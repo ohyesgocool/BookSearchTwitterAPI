@@ -11,7 +11,10 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import twitterAPI.TwitterAPITest;
 
 public class Utils {
 	public static RequestSpecification req;
@@ -22,6 +25,29 @@ public class Utils {
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/global.properties");
 		prop.load(fis);
 		return prop.getProperty(key);
+
+	}
+	
+	
+
+	public static String splitTweet(String tweet)
+
+	{
+		String authorName = null, location;
+
+		if (tweet.contains("#Whatsthebookname ")) {
+			String tweetNameArr[] = tweet.split("#Whatsthebookname ");
+			authorName = tweetNameArr[1];
+			return authorName;
+
+		}
+		else if (tweet.contains("#WhatstheWeather ")) {
+			String tweetNameArr[] = tweet.split("#WhatstheWeather ");
+			location = tweetNameArr[1];
+			return location;
+
+		}
+		return null;
 
 	}
 
@@ -36,6 +62,12 @@ public class Utils {
 		}
 		return req;
 
+	}
+	public static JsonPath getTweetJSON(Response r) throws IOException {
+		
+		String json = r.asString();
+		JsonPath jspath = new JsonPath(json);
+		return jspath ;
 	}
 
 }
